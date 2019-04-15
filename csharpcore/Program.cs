@@ -7,6 +7,7 @@ namespace csharpcore
     {
         public static void Main(string[] args)
         {
+            
             Console.WriteLine("OMGHAI!");
 
             IList<Item> Items = new List<Item>{
@@ -51,6 +52,8 @@ namespace csharpcore
                 Console.WriteLine("");
                 app.UpdateQuality();
             }
+
+            Console.ReadLine();
         }
     }
 }
